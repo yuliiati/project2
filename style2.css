@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    box-sizing: border-box; 
+}
+body {
+    font-family: 'Lobster', cursive;
+}
+header {
+    height: 60px;
+    background-color: rgb(229, 226, 238);
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+h1 {
+    text-align: center;
+}
+main {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    background-color: greenyellow;
+    width: 90%;
+    margin: auto;
+    padding: 40px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.5);
+
+}
+p {
+    font-size: 28px;
+    font-family: 'Amatic SC', cursive;
+    color: rgb(101, 4, 228);
+}
+div {
+    width: calc(50% - 20px);/* ширина9 33px */
+    height: 200px; /* высота */
+    margin: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 1s;
+    /* border: 1px solid gray; */
+    /* border-radius: 8px; */
+     /* отступы для элемента со всех сторона */
+}
+div:hover {
+    transform: scale(1.1);
+}
+.item-1 {
+    background-image: url(../images/brazil.jpg);
+}
+.item-2 {
+    background-image: url(../images/wales.jpg);
+}
+.item-3 {
+    background-image: url(../images/ua.jpg);
+}
+.item-4 {
+    background-image: url(../images/shv.jpg);
+}
+.item-5 {
+    background-image: url(../images/maroco.jpg);
+}
+.item-6 {
+    background-image: url(../images/ka.jpg);
+}
+.item-7 {
+    background-image: url(../images/butan.jpg);
+}
+.item-8 {
+    background-image: url(../images/dominika.jpg);
+}
